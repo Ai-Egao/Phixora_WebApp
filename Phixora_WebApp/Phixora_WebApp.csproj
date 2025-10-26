@@ -140,6 +140,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Register.aspx" />
     <Content Include="RegisterClient.aspx" />
     <Content Include="RegisterWorker.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -278,6 +279,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RegisterClient.aspx.cs">
       <DependentUpon>RegisterClient.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
